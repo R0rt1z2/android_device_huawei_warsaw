@@ -17,3 +17,7 @@
 
 # Inherit from hi6250-common
 $(call inherit-product, device/huawei/hi6250-common/hi6250.mk)
+
+# Display
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
